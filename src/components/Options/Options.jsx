@@ -5,12 +5,17 @@ import "./Options.css";
 const Options = (props) => {
   const options = [
     {
-      text: "Javascript",
+      text: "Available Courses",
       handler: props.actionProvider.handleJavascriptQuiz,
       id: 1,
     },
-    { text: "Python", handler: () => {}, id: 2 },
-    { text: "Golang", handler: () => {}, id: 3 },
+    { text: "Programs", handler: () => {}, id: 2 },
+    { text: "Requirements", handler: () => {}, id: 3 },
+    { text: "School calender", handler: () => {}, id: 4 },
+    { text: "Departments & units", handler: () => {}, id: 5 },
+    { text: "About FuWukari", handler: () => {}, id: 6 },
+    { text: "History", handler: () => {}, id: 7 },
+    { text: "University Council", handler: () => {}, id: 8 },
   ];
 
   const buttonsMarkup = options.map((option) => (
